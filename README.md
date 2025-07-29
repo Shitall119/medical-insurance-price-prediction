@@ -21,6 +21,7 @@ Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Eng
 2. Random Forest Regressor
 3. Gradient Boosting Regressor
 4. XGBoost Regressor
+
 **Model Selection** : Tested all the models to check the RMSE & R-squared.
 **Pickle File** : Selected model as per best RMSE score & R-squared and created pickle file using pickle library.
 **Webpage** : Created a web application that takes all the necessary inputs from the user & shows the output.
