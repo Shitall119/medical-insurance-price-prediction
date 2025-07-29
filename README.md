@@ -13,10 +13,10 @@ The dataset is taken from a Kaggle. You can download the dataset from file calle
 ## Approach :
 Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and model testing to build a solution that should able to predict the price of the health insurance.
 
-**Data Exploration** : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.
-**Exploratory Data Analysis** : Plotted different graphs to get more insights about dependent and independent variables/features.
-**Feature Engineering** : Numerical features scaled down and Categorical features encoded.
-**Model Building** : In this step, first dataset Splitting is done. After that model is trained on different Machine Learning Algorithms such as:
+- **Data Exploration** : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.
+- **Exploratory Data Analysis** : Plotted different graphs to get more insights about dependent and independent variables/features.
+- **Feature Engineering** : Numerical features scaled down and Categorical features encoded.
+- **Model Building** : In this step, first dataset Splitting is done. After that model is trained on different Machine Learning Algorithms such as:
 1. Linear Regression
 2. Random Forest Regressor
 3. Gradient Boosting Regressor
