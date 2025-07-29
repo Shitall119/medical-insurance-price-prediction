@@ -6,7 +6,7 @@ Basically, this project aims to predict the cost of insurance using ML models tr
 
 ---
 ## Dataset :
-The dataset is taken from a Kaggle. You can download the dataset from here.
+The dataset is taken from a Kaggle. You can download the dataset from file called insurance.csv.
 
 ---
 
