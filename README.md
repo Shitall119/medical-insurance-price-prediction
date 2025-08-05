@@ -22,27 +22,27 @@ This can help users:
 Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and model testing to build a solution that should able to predict the price of the health insurance.
 Here, a full machine learning pipeline including:
 
-**1.Data Exploration** : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.structure and distributions in the dataset.
+**1. Data Exploration** : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.structure and distributions in the dataset.
 - Performed correlation analysis and visualizations to understand relationships between variables.
 - Plotted different graphs to get more insights about dependent and independent variables/features.
 
-**2.EDA :Data Cleaning & Feature Engineering**:
+**2. EDA :Data Cleaning & Feature Engineering**:
 - Categorical Encoding: Used label encoding and one-hot encoding for non-numeric variables (sex, smoker, region).
 - Scaling: Applied standard scaling to numerical features like bmi, age, etc.
 
-**3.Model Building** : Tested the following machine learning regression models::
+**3. Model Building** : Tested the following machine learning regression models::
 1. Linear Regression
 2. Random Forest Regressor
 3. Gradient Boosting Regressor
 4. XGBoost Regressor
 
-**4.Model Selection  & Evaluation** :
+**4. Model Selection  & Evaluation** :
 - Evaluated models based on **Root Mean Squared Error (RMSE)** and **R-squared (R²)** scores.
 -Selected the model with the best performance metrics.
 
-**5.Pickle File** : Serialized the final model using pickle library.
+**5. Pickle File** : Serialized the final model using pickle library.
 
-**6.Webpage** : A simple and interactive web application was developed using **Streamlit**:
+**6. Webpage** : A simple and interactive web application was developed using **Streamlit**:
 - Takes user input through sliders and dropdowns.
 - Displays the predicted insurance cost instantly.
 - Designed for non-technical users to interact with the model easily..
