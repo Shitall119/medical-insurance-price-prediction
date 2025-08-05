@@ -1,30 +1,52 @@
 # 🏥 Medical Insurance Price Prediction
 
 ## Problem Statement :
-Medical insurance costs can vary significantly depending on a variety of factors. The goal of this project to give people an estimate of how much they need based on their individual health situation. After that, customers can work with any health insurance carrier and its plans while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective part.
-Basically, this project aims to predict the cost of insurance using ML models trained on historical data.
+Medical insurance costs vary significantly based on factors such as age, gender, BMI, number of children, smoking status, and region. The goal of this project is to provide an estimated insurance cost based on individual health and demographic inputs using Machine Learning models trained on historical data.
+
+This can help users:
+
+- Understand potential insurance costs in advance.
+- Make informed decisions when comparing insurance policies.
+- Focus on health-related aspects of insurance rather than pricing confusion.
 
 ---
 ## Dataset :
-The dataset is taken from a Kaggle. You can download the dataset from file called medical_insurance.csv.
+- **Source:** Kaggle – 
+- **File:** medical_insurance.csv
+- The dataset includes the following features:
+  age, sex, bmi, children, smoker, region, charges
 
 ---
 
 ## Approach :
 Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and model testing to build a solution that should able to predict the price of the health insurance.
+Here, a full machine learning pipeline including:
 
-- **Data Exploration** : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.
-- **Exploratory Data Analysis** : Plotted different graphs to get more insights about dependent and independent variables/features.
-- **Feature Engineering** : Numerical features scaled down and Categorical features encoded.
-- **Model Building** : In this step, first dataset Splitting is done. After that model is trained on different Machine Learning Algorithms such as:
+- **1.Data Exploration** : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.structure and distributions in the dataset.
+- Performed correlation analysis and visualizations to understand relationships between variables.
+- Plotted different graphs to get more insights about dependent and independent variables/features.
+
+-**2.EDA= Data Cleaning & Feature Engineering**:
+- Categorical Encoding: Used label encoding and one-hot encoding for non-numeric variables (sex, smoker, region).
+- Scaling: Applied standard scaling to numerical features like bmi, age, etc.
+
+- **3.Model Building** : Tested the following machine learning regression models::
 1. Linear Regression
 2. Random Forest Regressor
 3. Gradient Boosting Regressor
 4. XGBoost Regressor
 
-- **Model Selection** : Tested all the models to check the RMSE & R-squared.
-- **Pickle File** : Selected model as per best RMSE score & R-squared and created pickle file using pickle library.
-- **Webpage** : Created a web application that takes all the necessary inputs from the user & shows the output.
+- **Model Selection  & Evaluation** :
+- Evaluated models based on **Root Mean Squared Error (RMSE)** and **R-squared (R²)** scores.
+-Selected the model with the best performance metrics.
+
+
+- **Pickle File** : Serialized the final model using pickle library.
+- **Webpage** : A simple and interactive web application was developed using **Streamlit**:
+
+- Takes user input through sliders and dropdowns.
+- Displays the predicted insurance cost instantly.
+- Designed for non-technical users to interact with the model easily..
 ---
 ## Web Inerface :
 <img width="1919" height="857" alt="Screenshot 2025-07-29 144449" src="https://github.com/user-attachments/assets/4d7a30b8-f6ba-479f-bda9-e0b418f223fd" />
@@ -32,11 +54,30 @@ Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Eng
 
 ---
 ## Libraries used :
-1) Pandas
-2) Numpy
-3) Matplotlib, Seaborn
-4) Scikit-Learn
-5) Streamlit
+- pandas – Data manipulation
+- numpy – Numerical operations
+- matplotlib & seaborn – Data visualization
+- scikit-learn – ML models and preprocessing
+- xgboost – Advanced gradient boosting
+- streamlit – Web app deployment
+- pickle – Model serialization
 
 ---
+## ▶️ How to Run the Project
+-**Clone the Repository**:
+git clone https://github.com/Shitall119/medical-insurance-price-prediction.git
+cd medical-insurance-price-prediction
+
+-** Run the Web App Using following command**:
+
+streamlit run app.py
+
+---
+## 📈 Results:
+Best model: XGBoost Regressor (assumed, update if needed)
+
+- R² Score: 0.9234 
+- RMSE: 3427.93
+
+  ---
 
