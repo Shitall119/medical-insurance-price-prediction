@@ -13,6 +13,7 @@ This can help users:
 - **Source:** Kaggle – https://www.kaggle.com/datasets/rahulvyasm/medical-insurance-cost-prediction
 - **File:** medical_insurance.csv
 - The dataset includes the following features:
+
   age, sex, bmi, children, smoker, region, charges
 
 ---
