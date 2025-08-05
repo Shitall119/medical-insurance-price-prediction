@@ -78,6 +78,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 **4.Run the Web App**
+
 streamlit run app.py
 
 The app will open in your browser at http://localhost:8501.
